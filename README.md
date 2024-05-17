@@ -1,1 +1,1 @@
-[Homework 1](https://mishankinson.github.io/homework/homework-1/media/)<br>
+[Homework 1](https://mishankinson.github.io/homework/homework-1/)<br>
