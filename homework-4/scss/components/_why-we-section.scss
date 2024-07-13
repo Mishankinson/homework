@@ -43,7 +43,7 @@
     }
   }
 
-  &__background-image {
+ &__background-image {
     position: absolute;
     top: -100px;
     width: 100%;
@@ -53,33 +53,39 @@
     background-size: cover;
     overflow: hidden;
     background-position: center;
-    background-image: url(/images/background_why_we.png);
+    background-image: url('../images/background_why_we.png'); // проверьте путь
 
     @media screen and (min-width: $bp-tablet) {
-      position: absolute;
-      top: -90px;
-      width: 100%;
-      height: 200%;
-      z-index: -1;
-      background-repeat: no-repeat;
-      background-size: cover;
-      overflow: hidden;
-      background-image: url(/images/background_why_we.png);
+        position: absolute;
+        top: -90px;
+        width: 100%;
+        height: 200%;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        background-image: url('../images/background_why_we.png'); // проверьте путь
     }
 
     @media screen and (min-width: $bp-dekstop) {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 220%;
-      z-index: -1;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      background-image: url(/images/background_why_we.png);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 220%;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        background-image: url('../images/background_why_we.png'); // проверьте путь
     }
-  }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url('../images/background_why_we@2x.png'); // проверьте путь
+    }
+}
 
   &__tittle {
     text-align: center;
