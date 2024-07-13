@@ -1,0 +1,186 @@
+.contacts-section {
+  padding: 0;
+  @media screen and (min-width: $bp-tablet) {
+    margin-bottom: 96px;
+  }
+
+  &__tittle {
+    font-family: "roboto";
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-family: "Play";
+      margin-bottom: 48px;
+      font-size: 64px;
+      font-weight: 700;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 28px;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      gap: 32px;
+    }
+  }
+
+  &__map {
+    width: 100%;
+    height: 230px;
+    border: none;
+    flex-shrink: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      border-radius: 32px;
+      width: 400px;
+      height: 480px;
+    }
+    @media screen and (min-width: $bp-dekstop) {
+      border-radius: 32px;
+      width: 605px;
+      height: 480px;
+    }
+  }
+
+  &__content {
+    width: 320px;
+    height: 430px;
+    border-radius: 32px;
+    background-color: #011c44;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 370px;
+      height: 480px;
+      background-color: #011c44;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
+    }
+    @media screen and (min-width: $bp-dekstop) {
+      width: 420px;
+      height: 480px;
+      border-radius: 32px;
+      background-color: #011c44;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__text {
+    width: 275px;
+    height: 52px;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__form-field {
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    width: 255px;
+    height: 45px;
+    background-color: var(--color-brand);
+    border-radius: 32px;
+    transition: color 0.2s;
+    margin-bottom: 8px;
+    /* налаштування тексту */
+    color: rgb(255, 255, 255);
+    font-family: "roboto";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 300px;
+      height: 55px;
+      padding: 16px 32px;
+      background-color: var(--color-brand);
+      border-radius: 32px;
+      transition: color 0.2s;
+      margin-bottom: 8px;
+      /* налаштування тексту */
+      color: rgb(255, 255, 255);
+      font-family: "roboto";
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    &:hover {
+      background-color: white;
+      border: 2px solid rgb(43, 127, 255);
+      /* настройки текста */
+      font-family: "roboto";
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0;
+      text-align: center;
+      color: rgb(1, 28, 68);
+
+      @media screen and (min-width: $bp-tablet) {
+        font-family: "roboto";
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+      }
+    }
+  }
+
+  &__confidentiality {
+    text-align: center;
+    width: 213px;
+    height: 36px;
+    /* налаштування тексту */
+    color: rgb(116, 114, 114);
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: wrap;
+
+    & a {
+      color: rgb(116, 114, 114);
+      text-decoration: underline;
+    }
+  }
+}
