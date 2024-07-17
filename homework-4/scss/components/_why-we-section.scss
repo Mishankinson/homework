@@ -34,7 +34,7 @@
   }
 
   &__background-image {
-    background-image: url(/images/background_why_we.jpg);
+    background-image: url(../images/background_why_we.jpg);
     position: absolute;
     top: -50px;
     width: 780px;
@@ -46,7 +46,7 @@
     background-position: center;
 
     @media screen and (min-width: $bp-tablet) {
-      background-image: url(/images/background_why_we.jpg);
+      background-image: url(../images/background_why_we.jpg);
       position: absolute;
       top: -90px;
       width: 100%;
@@ -58,7 +58,7 @@
     }
 
     @media screen and (min-width: $bp-dekstop) {
-      background-image: url(/images/background_why_we.jpg);
+      background-image: url(../images/background_why_we.jpg);
       position: absolute;
       top: 0;
       left: 0;
@@ -73,7 +73,7 @@
     @media screen and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/background_why_we@2x.jpg);
+      background-image: url(../images/background_why_we@2x.jpg);
     }
   }
 
